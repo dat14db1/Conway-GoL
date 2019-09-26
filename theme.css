@@ -1,0 +1,27 @@
+#boardDiv {
+	position: absolute;
+	top:0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+
+	width: 600px;
+	height: 600px;
+	margin:  auto;
+	background: #f3f3f3;
+}
+
+td.deadCell {
+	background: rgb(0, 0, 0);
+	border: 1px solid black;
+	width: 12px;
+	height:12px;
+}
+
+td.liveCell {
+	background: rgb(230, 105, 230);
+	border: 1px solid black;
+	width: 12px;
+	height: 12px;
+}
+
